@@ -1,0 +1,83 @@
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+a.button {
+    /* background: transparent url('bg_button_a.gif') no-repeat scroll top right; */
+    /*background: transparent url('https://ronna-afghan.harmonieweb.org/Style%20Library/Images/bg_button_a.gif') no-repeat scroll top right;*/
+    /*background: transparent url("<%=request.getContextPath()%>/module/img/bg_button_a.gif") no-repeat scroll top right; */
+	/*background-color:#A3C2C2*/
+    color: #444;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.button span {
+    /*background: transparent url('bg_button_span.gif') no-repeat;*/
+    /*background: transparent url('https://ronna-afghan.harmonieweb.org/Style%20Library/Images/bg_button_span.gif') no-repeat;*/
+    /*background: transparent url('<%=request.getContextPath()%>/module/img/bg_button_span.gif') no-repeat;*/
+	/*background-color:#A3C2C2*/
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+} 
+
+a.button:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+} 
+
+tr.d0 td {
+	background-color: #FFFFFF; color: black;
+}
+
+tr.d1 td {
+	background-color: #CCCCCC; color: black;
+}
+
+tr.hd td {
+	background-color: #FFAD33; color: black;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+/*
+body {
+	margin:50px 50px 50px 50px; padding:0px;
+	text-align:center;
+}
+*/	
+	
+.wrapper {
+    position:relative; 
+    top:26px; 
+    width:800px; 
+    /*width:80%;*/ 
+	/*height:600px;*/ 
+	/*height:100%;*/ 
+	height:80%; 
+	z-index:1;
+    margin-right: auto; 
+    margin-left: auto;
+    /*margin-right: 10%; */
+    /*margin-left: 10%; */
+    /*border-style:solid;*/
+    /*border-color:#ff0000 #0000ff;*/
+} 
